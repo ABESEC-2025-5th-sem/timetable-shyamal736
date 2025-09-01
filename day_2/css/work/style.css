@@ -1,0 +1,36 @@
+#container-box{
+    display: flex;
+    width: 320px;
+    height: 50px;
+    border: 2px solid black;
+
+}
+.box{
+    border: 1px solid yellow;
+    width: 80px;
+    height: auto;
+}
+.box:nth-child(1){
+    display: flex;
+}
+.class{
+    border: 1px solid yellow;
+    width: 80px;
+    height: auto;
+}
+
+.box:nth-child(2){
+    display: flex;
+}
+.box:nth-child(3){
+    display: flex;
+}
+.box:nth-child(4){
+    display: flex;
+}
+.box:nth-child(1),:nth-child(3){
+    background-color: blue;
+}
+.box:nth-child(2),:nth-child(4){
+    background-color: gray;
+}
